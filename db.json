@@ -1,0 +1,117 @@
+{
+  "tasks": [
+  ],
+  "timer": {
+    "status": "running",
+    "currentTaskId": "",
+    "pomodoroDuration": 1,
+    "pomodoroShortBreak": 2,
+    "pomodoroLongBreak": 3,
+    "frequencyLongBreak": 2,
+    "enableNotifications": false,
+    "mode": "pomodoro",
+    "currentPomodoro": 0
+  },
+  "statistics_daily": [
+    {
+      "id": "307654210",
+      "date": "2024-05-15",
+      "totalSessionTime": 10800,
+      "totalHoursWorked": 5400,
+      "pauseTime": "00:35:00",
+      "breaksPomodoros": 4,
+      "breaksTaken": 5,
+      "breaksStoped": 2
+    },
+    {
+      "id": "408765321",
+      "date": "2024-05-16",
+      "totalSessionTime": 6300,
+      "totalHoursWorked": 3150,
+      "pauseTime": "00:15:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 1
+    },
+    {
+      "id": "509876432",
+      "date": "2024-05-17",
+      "totalSessionTime": 4500,
+      "totalHoursWorked": 2250,
+      "pauseTime": "00:10:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 0
+    },
+    {
+      "id": "307654210",
+      "date": "2024-05-18",
+      "totalSessionTime": 10800,
+      "totalHoursWorked": 5400,
+      "pauseTime": "00:35:00",
+      "breaksPomodoros": 4,
+      "breaksTaken": 5,
+      "breaksStoped": 2
+    },
+    {
+      "id": "408765321",
+      "date": "2024-05-19",
+      "totalSessionTime": 6300,
+      "totalHoursWorked": 3150,
+      "pauseTime": "00:15:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 1
+    },
+    {
+      "id": "509876432",
+      "date": "2024-05-20",
+      "totalSessionTime": 4500,
+      "totalHoursWorked": 2250,
+      "pauseTime": "00:10:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 0
+    },
+    {
+      "id": "307654210",
+      "date": "2024-05-21",
+      "totalSessionTime": 10800,
+      "totalHoursWorked": 5400,
+      "pauseTime": "00:35:00",
+      "breaksPomodoros": 4,
+      "breaksTaken": 5,
+      "breaksStoped": 2
+    },
+    {
+      "id": "408765321",
+      "date": "2024-05-22",
+      "totalSessionTime": 6300,
+      "totalHoursWorked": 3150,
+      "pauseTime": "00:15:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 1
+    },
+    {
+      "id": "509876432",
+      "date": "2024-05-23",
+      "totalSessionTime": 4500,
+      "totalHoursWorked": 2250,
+      "pauseTime": "00:10:00",
+      "breaksPomodoros": 2,
+      "breaksTaken": 3,
+      "breaksStoped": 0
+    },
+    {
+      "id": "307654210",
+      "date": "2024-05-24",
+      "totalSessionTime": 10800,
+      "totalHoursWorked": 5400,
+      "pauseTime": "00:35:00",
+      "breaksPomodoros": 4,
+      "breaksTaken": 5,
+      "breaksStoped": 2
+    }
+  ]
+}

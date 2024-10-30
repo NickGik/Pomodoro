@@ -1,0 +1,33 @@
+@import '../../components/Header/style.scss';
+@import '../../components/HomeMain/Manual/style.scss';
+@import '../../components/HomeMain/FormTasks/style.scss';
+@import '../../components/HomeMain/TasksList/style.scss';
+@import '../../components/HomeMain/Task/style.scss';
+@import '../../components/HomeMain/EditTask/style.scss';
+@import '../../components/HomeMain/ModalEdit/style.scss';
+@import '../../components/HomeMain/Counter/style.scss';
+@import '../../components/HomeMain/Timer/style.scss';
+@import '../../components/HomeMain/SettingsEdit/style.scss';
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1264px;
+}
+
+.content-page {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
+    gap: 40px;
+
+    .tasks {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .timer-block {
+        grid-column: 5 / 10;
+        grid-row: 1 / 2;
+    }
+}

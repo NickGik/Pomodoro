@@ -1,0 +1,61 @@
+.statistics-activity__select-wrapper {
+    width: max-content;
+    position: relative;
+
+    &::after {
+        content: " ";
+        width: 15px;
+        height: 15px;
+        background-image: url('/public/rectangle.png');
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 40%;
+        right: 15px;
+    }   
+    
+    &.open::after { 
+        transform: rotate(180deg); 
+        top: 30%;
+    }
+    
+    .statistics-activity__select {
+        display: flex;
+        align-items: center;
+        width: 370px;
+        height: 55px;
+        margin: 0;
+        padding: 15px;
+        border: none;
+        outline: none;
+        background-color: #F4F4F4;
+        font-family: SFUI;
+        font-weight: 400;
+        font-size: 16px;
+        color: #333333;
+        text-decoration: none;
+        -webkit-appearance: none;
+        -moz-appearance: none; 
+        appearance: none; 
+        position: relative;
+        cursor: pointer;
+
+        .statistics-activity__option {
+            background-color: #F4F4F4;
+            font-family: SFUI;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333333;
+            cursor: pointer;
+        }
+    }
+}
+
+.dark-theme .statistics-activity__select {
+    background-color: #333333;
+    color: #fff;
+}
+
+.dark-theme .statistics-activity__option {
+    background-color: #333333;
+    color: #fff;
+}

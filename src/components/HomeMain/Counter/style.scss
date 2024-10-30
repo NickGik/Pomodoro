@@ -1,0 +1,158 @@
+.counter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 233, 235);
+
+    .counter-head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #DC3E22;
+        padding: 20px 0;
+        margin-bottom: 30px;
+
+        .counter-head__task {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: Bold;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .counter-head-tomatos {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+    
+            .counter-head__current,
+            .counter-head__plan {
+                margin: 0;
+                padding: 0 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: Bold;
+                color: #fff;
+            }
+        }
+    }
+
+    .counter-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .counter-main__btn-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 50px;
+            margin-bottom: 50px;
+            box-sizing: border-box;
+
+            .counter-main__btn-short,
+            .counter-main__btn-pomodoro,
+            .counter-main__btn-long {
+                border: none;
+                background-color: #c27472;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                padding: 20px 30px;
+                border-radius: 15px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            
+                &:hover {
+                    background-color: #641110;
+                    transition: background-color 0.3s ease;
+                }
+            }
+        }
+
+        .counter-timer__btn-minutes {
+            display: inline-block; 
+            margin-bottom: 30px;
+        
+            .counter-timer__btn-min-del,
+            .counter-timer__btn-min-add {
+                width: 180px;
+                padding: 15px 20px;
+                border: none;
+                cursor: pointer;
+                background-color: transparent;
+                color: white;
+                border-radius: 5px;
+            }
+        
+            .counter-timer__btn-min-del {
+                background-color: #d8615f;
+            }
+        
+            .counter-timer__btn-min-add {
+                background-color: #56b36d;
+                margin-right: 8px;
+            }
+        }
+
+        .counter-timer {
+            display: flex;
+            align-items: center;
+
+        }
+
+    }
+
+    .no-task-message {
+        font-size: 1.2em;
+        color: #666;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+    .counter-settings {
+        background-color: #3b3c3f;
+        border: none;
+        padding: 20px 40px;
+        color: white;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #929399;
+        }
+    }
+
+    .counter-footer {
+        width: 100%;
+        height: 20px;
+        background-color: #DC3E22;
+    }
+
+}
+
+.counter.counter-start {
+    background-color: #b6d6bf;
+}
+
+.counter.counter-stop {
+    background-color: #e6d4d1; /* Красный цвет для окончания */
+}
+
+.counter.counter-finish {
+    background-color: rgb(230, 233, 235);
+}
+
+
+

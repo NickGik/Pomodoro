@@ -1,0 +1,36 @@
+
+.dark-theme {
+    background-color: #000000;
+}
+ 
+.theme-toggle-button {
+    width: 150px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .theme-toggle-button:hover {
+    background-color: #e0e0e0;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  .dark-theme .theme-toggle-button {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-theme .theme-toggle-button:hover {
+    background-color: #444;
+    box-shadow: 2px 2px 7px rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }

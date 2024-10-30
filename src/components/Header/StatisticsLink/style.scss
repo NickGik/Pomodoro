@@ -1,0 +1,31 @@
+.header__link {
+    display: flex;
+    align-items: start;
+    font-family: SFUI;
+    font-weight: 400;
+    font-size: 16px;
+    color: #DC3E22;
+    text-decoration: none;
+    cursor: pointer;
+
+    svg {
+        margin-right: 5px;
+        fill: #DC3E22;
+    }
+
+    &:hover {
+        color: #B7280F;
+
+        svg {
+            fill: #B7280F;
+        }
+    }
+
+    &:active {
+        color: #d3af11;
+
+        svg {
+            fill: #d3af11;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import '../../components/Header/style.scss';
+@import '../../components/StatisticsMain/ActivityChart/style.scss';
+@import '../../components/StatisticsMain/BreaksPomodoros/style.scss';
+@import '../../components/StatisticsMain/DayDetails/style.scss';
+@import '../../components/StatisticsMain/Summary/style.scss';
+@import '../../components/StatisticsMain/StatisticsSelect/style.scss';
+@import '../../components/HomeMain/ModalDel/style.scss';
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1264px;
+}
+
+.statistics {
+    margin-bottom: 100px;
+
+    .statistics-wrapper {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: auto 260px 179px 179px;
+        gap: 32px;
+    }
+
+    .statistics-activity {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+
+        .statistics-activity__h1 {
+            margin: 0;
+            font-family: SFUI;
+            font-weight: 700;
+            font-size: 24px;
+            color: #333333;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.dark-theme .statistics-activity__h1 {
+    color: #fff !important;
+}

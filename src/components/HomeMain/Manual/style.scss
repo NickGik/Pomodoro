@@ -1,0 +1,52 @@
+.manual {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .manual__h2 {
+        margin: 0;
+        font-family: SFUI;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: left;
+        color: #333333;
+    }
+
+    .manual__ul {
+        max-width: 518px;
+        margin: 0;
+        padding-left: 10px;
+        margin-bottom: 25px;
+
+        .manual__li {
+            padding-left: 10px;
+
+            &::marker {
+                content: "●"; 
+                color: red; 
+                font-size: 1em; 
+            }
+
+            .manual__text {
+                margin: 0;
+                font-family: SFUI;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 33px;
+                text-align: left;
+                color: #333333;
+            }
+        }
+    }
+}
+     
+
+
+.dark-theme .manual__text {
+    color: #fff !important;
+}
+
+.dark-theme .manual__h2 {
+    color: #fff;
+}

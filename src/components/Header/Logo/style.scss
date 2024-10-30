@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    .logo__img {
+        margin: 0;
+        margin-right: 12px;
+    }
+
+    .logo__title {
+        margin: 0;
+        font-family: SFUI,  Arial, Helvetica, sans-serif;;
+        font-weight: 300;
+        font-size: 24px;
+        color: #DC3E22;
+        text-align: center;
+    }
+}
+
